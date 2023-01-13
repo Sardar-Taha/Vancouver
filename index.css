@@ -580,6 +580,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: inherit;
   }
 }
 @media only screen and (max-width: 547px) {

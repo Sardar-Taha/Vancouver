@@ -572,9 +572,10 @@ body {
   width: 50% !important;
 }
 
-@media only screen and (max-width: 985px) {
-  .aboutHeading {
-    font-size: 35px;
+@media only screen and (max-width: 991px) {
+  .column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
   }
   .plates {
     display: block;
@@ -583,6 +584,26 @@ body {
     width: inherit;
   }
 }
+.margin-bottom {
+  margin-bottom: 100p;
+}
+
+@media only screen and (max-width: 985px) {
+  .aboutHeading {
+    font-size: 35px;
+  }
+
+  .column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url(/img/menu.svg) !important;
+    background-repeat: no-repeat;
+  }
+}
+
 @media only screen and (max-width: 547px) {
   .tickimg {
     margin-bottom: 50px;
@@ -603,5 +624,23 @@ body {
 
   .text-2 {
     font-size: 16px;
+  }
+}
+
+.background {
+  background-color: rgb(23, 23, 26);
+}
+
+.hea {
+  font-size: 50px !important;
+}
+
+.platesq {
+  max-width: 100% !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .platesq {
+    margin-top: 0px !important;
   }
 }

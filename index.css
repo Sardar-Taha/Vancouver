@@ -8,6 +8,11 @@ body {
   overflow-x: hidden;
 }
 
+.fa {
+  margin-left: 5px;
+  font-size: 22px;
+}
+
 body {
   background-color: #000 !important;
 }
@@ -33,7 +38,7 @@ body {
   transform: scaleX(0);
   height: 2px;
   top: 35px;
-  bottom: -1;
+  bottom: 0;
   left: 8px;
   background-color: #8d8d8d;
   transform-origin: bottom right;
@@ -55,6 +60,7 @@ body {
   margin-right: 30px;
   background-color: black !important;
   color: white;
+  border: none !important;
 }
 
 .d-flex .btn {
@@ -169,7 +175,6 @@ body {
   top: 70%;
   right: auto;
   bottom: auto;
-  overflow: hidden;
   width: 250px;
   border-radius: 10px;
   box-shadow: 0 0 53px 0 rgb(0 0 0 / 65%);
@@ -184,24 +189,9 @@ body {
   top: auto;
   right: 40px;
   bottom: -95%;
-  overflow: hidden;
   width: 506px;
   border-radius: 10px;
   box-shadow: 0 0 53px 0 rgb(0 0 0 / 65%);
-}
-
-.margin {
-  width: 100% !important;
-}
-
-.logoFlex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.logImg {
-  width: 2.5%;
 }
 
 .logo-text {
@@ -211,7 +201,9 @@ body {
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.8px;
+  margin-top: 1.5rem !important;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 1193px) {
@@ -294,6 +286,36 @@ body {
   .img-right-2 {
     bottom: -44%;
     width: 321px;
+  }
+  li.nav-item {
+    text-align: center !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+
+  .nav-item .nav-link::after {
+    width: 91%;
+
+    top: 35px;
+    bottom: -1px;
+    left: 2px;
+  }
+
+  .signIn-button {
+    display: none;
+  }
+
+  .btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .logoWrapper {
+    flex-wrap: wrap;
   }
 
   .img-left-1 {
@@ -400,6 +422,15 @@ body {
     width: 160px;
   }
 
+  .button-flex {
+    flex-direction: column;
+  }
+
+  .learnMore {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
   .img-left-1 {
     left: 8px;
     top: 54%;
@@ -419,5 +450,152 @@ body {
     left: 8px;
     top: 60%;
     width: 100px;
+  }
+}
+
+.simpleText {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 52px;
+  line-height: 1.2;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+}
+
+.simplePara {
+  width: 65%;
+  margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: #9f9f9f;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 911px) {
+  .simpleText {
+    font-size: 40px;
+  }
+
+  .simplePara {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 715px) {
+  .simpleText {
+    font-size: 32px;
+  }
+
+  .simplePara {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 438px) {
+  .simpleText {
+    font-size: 28px;
+  }
+
+  .simplePara {
+    font-size: 16px;
+  }
+}
+
+.aboutHeading {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 45px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 100px;
+}
+
+.aboutpara {
+  width: 98%;
+  margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: #9f9f9f;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.8px;
+}
+
+.tickwrapper {
+  display: flex;
+  margin-top: 50px;
+}
+.tickimg {
+  width: 30px;
+  margin-bottom: 10px;
+}
+
+.tickSide-1 {
+  flex: 1;
+}
+.side-2 {
+  flex: 9;
+}
+
+.text-1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.text-2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.text-3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.plates {
+  margin-top: 100px;
+}
+
+.col-lg-3 {
+  flex: 0 0 auto;
+  width: 50% !important;
+}
+
+@media only screen and (max-width: 985px) {
+  .aboutHeading {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 547px) {
+  .tickimg {
+    margin-bottom: 50px;
+  }
+
+  .text-1 {
+    margin-bottom: 29px !important;
+  }
+
+  .text-2 {
+    margin-bottom: 52px;
+  }
+}
+@media only screen and (max-width: 431px) {
+  .side-2 {
+    flex: 6;
+  }
+
+  .text-2 {
+    font-size: 16px;
   }
 }

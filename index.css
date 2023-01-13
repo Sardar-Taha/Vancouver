@@ -683,11 +683,12 @@ body {
   top: 10px;
 }
 .feature-img-2 {
-  width: 74%;
+  width: 76%;
   position: absolute;
-  right: 70px;
+  right: 66px;
   top: 22px;
   border-radius: 20px;
+  object-fit: fit-content;
 }
 
 @media only screen and (max-width: 991px) {
@@ -702,5 +703,18 @@ body {
     width: 35%;
     right: 32%;
     top: 3%;
+  }
+}
+
+@media only screen and (max-width: 644px) {
+  .feature-img-2 {
+    width: 35%;
+    right: 32.3%;
+    top: 4%;
+  }
+}
+@media only screen and (max-width: 442px) {
+  .feature-img-2 {
+    top: 5%;
   }
 }

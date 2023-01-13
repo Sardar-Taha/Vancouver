@@ -12,6 +12,9 @@ body {
   margin-left: 5px;
   font-size: 22px;
 }
+html {
+  overflow-x: initial !important;
+}
 
 body {
   background-color: #000 !important;
@@ -682,7 +685,22 @@ body {
 .feature-img-2 {
   width: 74%;
   position: absolute;
-  right: 62px;
+  right: 70px;
   top: 22px;
   border-radius: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .feature-img-1 {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .feature-img-2 {
+    width: 35%;
+    right: 32%;
+    top: 3%;
+  }
 }

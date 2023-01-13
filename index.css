@@ -644,3 +644,45 @@ body {
     margin-top: 0px !important;
   }
 }
+
+.features {
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 52px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #fff;
+}
+
+.feature-text {
+  width: 60%;
+  margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.8px;
+}
+
+.feature-img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+.background-black {
+  position: relative;
+}
+
+.feature-img-1 {
+  width: 86%;
+  position: relative;
+  z-index: 1;
+  top: 10px;
+}
+.feature-img-2 {
+  width: 74%;
+  position: absolute;
+  right: 62px;
+  top: 22px;
+  border-radius: 20px;
+}

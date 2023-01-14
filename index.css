@@ -501,11 +501,12 @@ body {
 }
 @media only screen and (max-width: 438px) {
   .simpleText {
-    font-size: 28px;
+    font-size: 21px;
   }
 
   .simplePara {
-    font-size: 16px;
+    font-size: 13px;
+    text-align: start;
   }
 }
 
@@ -623,6 +624,15 @@ body {
 
   .text-2 {
     margin-bottom: 52px;
+  }
+}
+@media only screen and (max-width: 527px) {
+  .tickimg {
+    margin-bottom: 50px;
+  }
+
+  .text-1 {
+    margin-bottom: 55px !important;
   }
 }
 @media only screen and (max-width: 431px) {

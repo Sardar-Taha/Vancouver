@@ -637,6 +637,7 @@ body {
 
 .background {
   background-color: rgb(23, 23, 26);
+  padding: 20px;
 }
 
 .platesq {
@@ -692,6 +693,12 @@ body {
   top: 22px;
   border-radius: 20px;
   object-fit: fit-content;
+}
+
+@media only screen and (max-width: 488px) {
+  .aboutHeading {
+    font-size: 25px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -1313,9 +1320,12 @@ body {
   .footer-logo {
     width: 70%;
   }
-}
-@media only screen and (max-width: 630px) {
-  .footer-logo {
-    width: 70%;
+}*/
+@media only screen and (max-width: 400px) {
+  .month {
+    font-size: 40px;
   }
-} */
+  .dollar {
+    font-size: 45px;
+  }
+}

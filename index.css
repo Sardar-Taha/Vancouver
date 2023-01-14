@@ -619,20 +619,16 @@ body {
   }
 
   .text-1 {
-    margin-bottom: 29px !important;
+    margin-bottom: 29px;
   }
 
   .text-2 {
     margin-bottom: 52px;
   }
 }
-@media only screen and (max-width: 527px) {
-  .tickimg {
-    margin-bottom: 50px;
-  }
-
+@media only screen and (max-width: 522px) {
   .text-1 {
-    margin-bottom: 55px !important;
+    margin-bottom: 32px !important;
   }
 }
 @media only screen and (max-width: 431px) {

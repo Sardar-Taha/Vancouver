@@ -1335,3 +1335,12 @@ body {
     font-size: 45px;
   }
 }
+@media only screen and (max-width: 400px) {
+  .team-text {
+    width: 100%;
+    font-size: 15px;
+  }
+  .team {
+    font-size: 26px !important;
+  }
+}

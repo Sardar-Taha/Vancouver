@@ -79,10 +79,6 @@ body {
   color: #000;
 }
 
-.navbar {
-  border-bottom: 1px solid gray;
-}
-
 .background-color {
   background-color: #000;
   margin-top: -0.6px;
@@ -657,12 +653,12 @@ body {
   }
 
   .text-2 {
-    margin-bottom: 19%;
+    margin-bottom: 52px;
   }
 }
 @media only screen and (max-width: 522px) {
   .text-1 {
-    margin-bottom: 11% !important;
+    margin-bottom: 32px !important;
   }
 }
 @media only screen and (max-width: 431px) {
@@ -1045,7 +1041,7 @@ body {
   }
 
   .startTrail {
-    padding: 5px 60px 5px 61px !important;
+    padding: 8px 60px 8px 61px !important;
   }
 }
 
@@ -1377,5 +1373,10 @@ body {
   }
   .team {
     font-size: 26px !important;
+  }
+}
+@media only screen and (max-width: 539px) {
+  p.text-1.margin-bottom {
+    margin-bottom: 56px !important;
   }
 }

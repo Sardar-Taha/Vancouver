@@ -501,12 +501,46 @@ body {
 }
 @media only screen and (max-width: 438px) {
   .simpleText {
-    font-size: 21px;
+    font-size: 26px;
   }
 
   .simplePara {
-    font-size: 13px;
-    text-align: start;
+    font-size: 18px;
+  }
+
+  .aboutpara {
+    text-align: center !important;
+  }
+  .box-1 {
+    padding: 40px 50px 30px !important;
+  }
+  .box-2 {
+    padding: 40px 50px 30px !important;
+  }
+
+  .copyright {
+    font-size: 18px !important;
+  }
+
+  .submit {
+    margin-top: 20px;
+  }
+
+  .email {
+    margin-top: 10px;
+  }
+
+  .boxwrapper {
+    padding: 40px 50px 30px !important;
+  }
+  .boxwrapper-2 {
+    padding: 40px 50px 30px !important;
+  }
+
+  .buyButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -623,12 +657,12 @@ body {
   }
 
   .text-2 {
-    margin-bottom: 52px;
+    margin-bottom: 19%;
   }
 }
 @media only screen and (max-width: 522px) {
   .text-1 {
-    margin-bottom: 32px !important;
+    margin-bottom: 11% !important;
   }
 }
 @media only screen and (max-width: 431px) {
@@ -704,6 +738,7 @@ body {
 @media only screen and (max-width: 488px) {
   .aboutHeading {
     font-size: 25px;
+    text-align: center;
   }
 }
 
@@ -1282,7 +1317,7 @@ body {
   all: revert;
   margin-top: -40px;
   margin-bottom: 10px;
-  font-size: 22px !important;
+  font-size: 22px;
   line-height: 1.2;
   font-weight: 400;
   color: #fff;

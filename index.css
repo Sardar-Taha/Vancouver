@@ -28,6 +28,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: #ffff !important;
+  margin-left: 30px;
 }
 
 .nav-link {
@@ -93,6 +94,7 @@ body {
   color: #fff;
   font-weight: 600;
   font-family: "Outfit";
+  margin-top: 100px;
 }
 
 .gradeint-text {
@@ -628,7 +630,7 @@ body {
   margin-bottom: 100p;
 }
 
-@media only screen and (max-width: 985px) {
+@media only screen and (max-width: 992px) {
   .aboutHeading {
     font-size: 35px;
   }
@@ -641,6 +643,10 @@ body {
   .navbar-toggler-icon {
     background-image: url(/img/menu.svg) !important;
     background-repeat: no-repeat;
+  }
+
+  .nav-item .nav-link {
+    margin-left: 0px;
   }
 }
 
@@ -1319,7 +1325,6 @@ body {
   line-height: 1.2;
   font-weight: 400;
   color: #fff;
-  text-align: start;
 }
 
 @media only screen and (max-width: 882px) {
@@ -1394,5 +1399,9 @@ body {
 @media only screen and (max-width: 539px) {
   p.text-1.margin-bottom {
     margin-bottom: 56px !important;
+  }
+
+  .copyright {
+    font-size: 17px;
   }
 }
